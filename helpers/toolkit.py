@@ -104,7 +104,7 @@ class Tools(object):
             wget.download(Thumb, f"{path}/{name}.jpg")
             pdfthumb = f"{path}/{name}.jpg"
         else:    
-            wget.download("https://telegra.ph/file/84870d6d89b893e59c5f0.jpg", f"{path}/{name}.jpg")
+            wget.download("https://graph.org/file/b0e4fa95900d14052b910.png", f"{path}/{name}.jpg")
             pdfthumb = f"{path}/{name}.jpg"
         return pdfthumb
 
